@@ -1579,7 +1579,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: 600;
 		color: #483949;
 		line-height: 1.25em;
 	}
@@ -1991,7 +1991,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: red;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2097,7 +2097,9 @@
 
 	#header {
 		position: relative;
-		background-image: url("images/back.jpg");
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      	url("../../images/back.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2203,7 +2205,7 @@
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -2211,6 +2213,7 @@
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		background-color: black;
 	}
 
 		#nav > ul {
@@ -2323,6 +2326,10 @@
 				border-left: solid 0.75em rgba(64, 64, 64, 0);
 				border-right: solid 0.75em rgba(64, 64, 64, 0);
 			}
+#meet{
+	text-align: center;
+	font-size: 3.5em;
+}			
 
 /* Banner */
 
@@ -2332,6 +2339,13 @@
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
+
+	#banner  p {
+			padding: 20px;
+			text-align: justify;
+			font-size: 25px;
+		}
+
 
 		#banner header > p {
 			margin-bottom: 0;
