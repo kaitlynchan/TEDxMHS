@@ -2098,10 +2098,10 @@
 	#header {
 		position: relative;
 		background: linear-gradient(
-      	rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      	rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       	url("../../images/noahback.jpg");
 		background-size: cover;
-		background-position: center center;
+		background-position: center center ;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
